@@ -1,0 +1,25 @@
+Update plugin to works with aloha 0.20
+
+Installation:
+
+    Put this dirs in "aloha/plugins/textcolor"
+    Ex: aloha/plugins/extra/textcolor/lib/..
+
+    put "extra/textcolor
+    Ex: <script type="text/javascript" 
+          src="/static/aloha/lib/aloha.js"
+          data-aloha-plugins="
+                        common/format,
+                        extra/textcolor"></script>
+
+Configs:
+    colors: Disponibled colors name
+        Ex: ['black', 'white', 'green']
+    auto_add_buttons: Autoadd color buttons on FloatingMenu (default: true)
+
+
+    Configs example:
+    Aloha.settings.plugins.textcolor = {
+        colors: [ 'white', 'red', 'blue'],
+        auto_add_buttons: false
+    }
