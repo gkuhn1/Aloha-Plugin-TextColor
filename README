@@ -2,7 +2,7 @@ Update plugin to works with aloha 0.20
 
 Installation:
 
-    Put this dirs in "aloha/plugins/textcolor"
+    Put this dirs in "aloha/plugins/extra/textcolor"
     Ex: aloha/plugins/extra/textcolor/lib/..
 
     put "extra/textcolor
